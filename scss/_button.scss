@@ -1,0 +1,36 @@
+@import './variables';
+.button {
+    display: inline-block;
+    background-color: $first-color;
+    color: #fff;
+    padding: 0.5rem 1.75rem;
+    font-weight: $fs-md;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $first-color-alt;
+    }
+
+    &-icon {
+        transition: 0.3s;
+    }
+
+    &:hover &-icon {
+        transform: translateX(0.25rem);
+    }
+
+    &--flex {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 0.5rem;
+    }
+
+    &--link {
+        color: $first-color;
+        font-weight: $fs-md;
+    }
+
+    &--link:hover &-icon {
+        transform: translateX(0.25rem);
+    }
+}
