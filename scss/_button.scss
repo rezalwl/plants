@@ -19,18 +19,18 @@
         transform: translateX(0.25rem);
     }
 
-    &--flex {
+    &-flex {
         display: inline-flex;
         align-items: center;
         column-gap: 0.5rem;
     }
 
-    &--link {
+    &-link {
         color: $first-color;
         font-weight: $fs-md;
     }
 
-    &--link:hover &-icon {
+    &-link:hover &-icon {
         transform: translateX(0.25rem);
     }
 }

@@ -20,7 +20,7 @@
         transition: .3s;
     }
 
-    &-logo--icon {
+    &-logo-icon {
         font-size: 1.15rem;
         color: $first-color;
     }
@@ -69,13 +69,13 @@
         column-gap: 0.75rem;
     }
 
-    &-social--link {
+    &-social-link {
         font-size: 1rem;
         color: $text-color;
         transition: 0.3s;
     }
 
-    &-social--link:hover {
+    &-social-link:hover {
         transform: translateY(-.25rem);
     }
 

@@ -138,7 +138,7 @@
     padding: 8rem 0 1rem;
 
     &-title,
-    &-title--center {
+    &-title-center {
       font-size: $h1-font-size;
     }
   }
@@ -168,7 +168,7 @@
       padding: 3.5rem 2.5rem;
     }
 
-    &-card--title {
+    &-card-title {
       font-size: $fs-md;
     }
   }
@@ -245,16 +245,16 @@
       row-gap: 4.5rem;
     }
 
-    &-social--follow {
+    &-social-follow {
       font-size: $fs-sm;
     }
 
-    &-social--follow::after {
+    &-social-follow::after {
       width: 1.5rem;
       right: -60%;
     }
 
-    &-social--link {
+    &-social-link {
       font-size: 1.15rem;
     }
   }
