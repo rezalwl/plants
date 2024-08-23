@@ -6,6 +6,7 @@
 
     &-container {
         row-gap: 3rem;
+        margin-block: 100px;
     }
 
     &-logo {
@@ -16,7 +17,7 @@
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: -1px;
-        // margin-bottom: $mb-2-5;
+        
         transition: .3s;
     }
 

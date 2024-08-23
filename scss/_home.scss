@@ -84,12 +84,13 @@
   }
 
   &-img {
-    width: 280px;
+    width: 380px;
     justify-self: center;
   }
 
   &-title {
     margin-bottom: $mb-1;
+    font-size: 36px;
   }
 
   &-description {
@@ -105,7 +106,7 @@
   &-details-description {
     display: inline-flex;
     column-gap: 0.5rem;
-    font-size: $fs-sm;
+    font-size: $fs-md;
   }
 
   &-details-icon {
@@ -119,7 +120,7 @@
 .steps {
   &-bg {
     background-color: $first-color;
-    padding: 3rem 1rem 2rem;
+    padding: 4rem 2rem 4rem;
   }
 
   &-container {
@@ -163,27 +164,28 @@
 /* products */
 .product {
   @include set-left-and-right-padding;
-
   &-description {
     text-align: center;
   }
 
   &-container {
-    padding: 3rem 0;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem 3rem;
+    padding: 3rem 4rem 4rem 8rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem 6rem;
+   
   }
 
   &-card {
     display: grid;
     position: relative;
+    width: 185px;
+    
   }
 
   &-img {
     position: relative;
-    width: 120px;
+    width: 160px;
     justify-self: center;
-    // margin-bottom: $mb-0-75;
     transition: 0.3s;
   }
 
@@ -213,13 +215,13 @@
   }
 
   &-circle {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     background-color: $first-color-lighten;
     border-radius: 50%;
     position: absolute;
     top: 18%;
-    left: 5%;
+    left: 3%;
   }
 
   &-card:hover &-img {
@@ -234,7 +236,7 @@
 
   &-container {
     gap: 1.5rem;
-    padding: 1.5rem 0;
+    padding: 4rem 0;
   }
 
   &-group {
@@ -248,7 +250,7 @@
   }
 
   &-item-title {
-    font-size: $fs-sm;
+    font-size: $fs-md;
     font-weight: $fw-medium;
   }
 
@@ -258,7 +260,7 @@
   }
 
   &-description {
-    font-size: $fs-sm;
+    font-size: $fs-md;
     padding: 0 1.25rem 1.25rem 2.5rem;
   }
 

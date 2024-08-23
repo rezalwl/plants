@@ -1,38 +1,49 @@
-@import './variables';
+@import "./variables";
+
+$first-color-dark: hsl(152, 8%, 20%);
+$title-color2: hsl(152, 4%, 95%);
+$text-color2: hsl(152, 4%, 75%);
+$body-color2: hsl(152, 8%, 12%);
+$container-color2: hsl(152, 8%, 16%);
 
 body.dark-theme {
-    --first-color-dark: hsl(152, 8%, 20%);
-    --title-color: hsl(152, 4%, 95%);
-    --text-color: hsl(152, 4%, 75%);
-    --body-color: hsl(152, 8%, 12%);
-    --container-color: hsl(152, 8%, 16%);
-}
-
-.change-theme {
-    color: $title-color;
-    font-size: 1.15rem;
+  background-color: $body-color2;
+  color: $text-color2;
 }
 
 #theme-button {
-    display: inline-block;
-    cursor: pointer;
-    margin-right: 0.6rem;
-    font-size: $fs-md;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 0.6rem;
+  font-size: $fs-md;
+
 }
-
+ .dark-theme .header{
+    background-color: $body-color2;
+    & a {color: $title-color2; }
+  }
 .dark-theme {
+  & .home-title,
+  .about-title,
+  .product-title,
+  .product-title2,
+  .product-price,
+  .steps-title,
+  .questions-title {
+    color: $title-color2;
+  }
+ 
+  & .steps-bg,
+  & .questions {
+    background-color: $first-color-dark;
+  }
 
-    & .steps-bg,
-    & .questions {
-        background-color: $first-color-dark;
-    }
+  & .product-circle,
+  & .footer-subscribe {
+    background-color: $container-color2;
+  }
 
-    & .product-circle,
-    & .footer-subscribe {
-        background-color: $container-color;
-    }
-
-    & .scroll-header {
-        box-shadow: 0 1px 4px hsla(152, 4%, 4%, 0.3);
-    }
+  & .scroll-header {
+    box-shadow: 0 1px 4px hsla(152, 4%, 4%, 0.3);
+  }
 }
