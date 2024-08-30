@@ -12,13 +12,14 @@
 
   &-img {
     justify-self: center;
+    width: 180px;
   }
   &-data {
     text-align: right;
     padding-right: 70px;
   }
   &-title {
-    font-size: $big-font-size;
+    font-size: 1.5rem;
     line-height: 140%;
     margin-bottom: $mb-1;
   }
@@ -90,7 +91,7 @@
 
   &-title {
     margin-bottom: $mb-1;
-    font-size: 36px;
+    font-size: 1.3rem;
   }
 
   &-description {
@@ -169,7 +170,7 @@
   }
 
   &-container {
-    padding: 3rem 4rem 4rem 8rem;
+    padding: 3rem 4rem 4rem 4rem;
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem 6rem;
    
